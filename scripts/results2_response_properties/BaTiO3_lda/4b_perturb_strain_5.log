@@ -1,0 +1,36 @@
+Running with index 5
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 8
+│   n_DFTK = 8
+│   n_fft = 1
+└   n_blas = 8
+Loading SCF results...
+Loaded SCF results.
+Loading δψ_dk...
+Loaded δψ_dk.
+Computing δHψ...
+Running DFPT computation...
+Iter  Restart  Krydim  log10(res)  avg(CG)  Δtime   Comment
+----  -------  ------  ----------  -------  ------  ---------------
+                                      37.3    388s  Non-interacting
+   1        0       1        1.18     28.8    324s  
+   2        0       2        0.61     27.9    295s  
+   3        0       3       -0.28     26.2    280s  
+   4        0       4       -0.94     23.3    256s  
+   5        0       5       -1.64     21.0    238s  
+   6        0       6       -2.46     19.3    209s  
+   7        0       7       -3.04     16.7    185s  
+   8        0       8       -3.91     14.5    166s  
+   9        0       9       -4.89     11.6    141s  
+  10        0      10       -5.33      9.0    105s  
+  11        0      11       -5.91      8.0    100s  
+  12        0      12       -6.62      5.9   82.2s  
+  13        0      13       -7.04      4.3   57.0s  
+  14        0      14       -7.91      2.9   44.6s  
+  15        0      15       -9.05      1.0   30.9s  
+  16        1       1       -8.29     32.9    368s  Restart
+                                      31.7    349s  Final orbitals
+Finished DFPT computation.
+Computing polarization change
+Computing forces and stress changes
+All finished!

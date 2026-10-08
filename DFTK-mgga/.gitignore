@@ -1,0 +1,12 @@
+.*.swp
+.*.swo
+*~
+
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+benchmark/*.json
+Manifest.toml
+/LocalPreferences.toml
+.vscode
+.CondaPkg

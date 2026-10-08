@@ -1,0 +1,46 @@
+Running with index 1
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 8
+│   n_DFTK = 8
+│   n_fft = 1
+└   n_blas = 8
+Loading SCF results...
+┌ Warning: Negative ρcore detected: -4.8784740988640716e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+Loaded SCF results.
+Loading δψ_dk...
+Loaded δψ_dk.
+Running DFPT computation...
+Iter  Restart  Krydim  log10(res)  avg(CG)  Δtime   Comment
+----  -------  ------  ----------  -------  ------  ---------------
+                                      33.0    803s  Non-interacting
+   1        0       1        0.82     28.3    730s  
+   2        0       2        0.07     25.6    621s  
+   3        0       3       -0.92     23.7    586s  
+   4        0       4       -1.84     21.5    522s  
+   5        0       5       -2.64     19.1    476s  
+   6        0       6       -3.87     16.7    396s  
+   7        0       7       -4.78     12.7    322s  
+   8        0       8       -5.31     10.5    275s  
+   9        0       9       -6.35      8.3    213s  
+  10        0      10       -7.52      5.0    152s  
+  11        0      11       -8.57      1.0   73.1s  
+  12        1       1       -8.65     31.4    812s  Restart
+                                      31.8    793s  Final orbitals
+Finished DFPT computation.
+Computing polarization change
+Computing forces change
+Computing stress change
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-4.8784740152726816e-8,1.7620945809210182e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-4.8784740152726816e-8,3.714217933840348e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-4.8784740152726816e-8,4.124047834324951e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-4.8784740152726816e-8,5.023429855878502e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-4.8784740152726816e-8,-4.270756262680263e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-4.8784740152726816e-8,-2.0716853615332589e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+All finished!

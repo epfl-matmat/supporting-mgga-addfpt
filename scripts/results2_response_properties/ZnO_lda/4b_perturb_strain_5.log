@@ -1,0 +1,49 @@
+Running with index 5
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 8
+│   n_DFTK = 8
+│   n_fft = 1
+└   n_blas = 8
+Loading SCF results...
+┌ Warning: Negative ρcore detected: -4.878474094342929e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+Loaded SCF results.
+Loading δψ_dk...
+Loaded δψ_dk.
+Computing δHψ...
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{var"#5#6", Float64}}(-4.878474009710565e-8,-4.270756268701479e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+Running DFPT computation...
+Iter  Restart  Krydim  log10(res)  avg(CG)  Δtime   Comment
+----  -------  ------  ----------  -------  ------  ---------------
+                                      36.5    864s  Non-interacting
+   1        0       1        0.83     29.2    762s  
+   2        0       2        0.24     26.3    665s  
+   3        0       3       -0.89     24.9    589s  
+   4        0       4       -1.84     21.6    531s  
+   5        0       5       -2.63     18.4    468s  
+   6        0       6       -4.02     16.4    421s  
+   7        0       7       -5.09     12.5    328s  
+   8        0       8       -6.12      8.9    248s  
+   9        0       9       -7.18      5.0    161s  
+  10        0      10       -8.50      2.0   82.0s  
+  11        1       1       -8.42     31.4    817s  Restart
+                                      32.2    792s  Final orbitals
+Finished DFPT computation.
+Computing polarization change
+Computing forces and stress changes
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.878474009710565e-8,-4.270756268701479e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}(Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.8784740948094764e-8,-4.270756420702484e-8),Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(1.7620945842126933e-7,-7.672480858044062e-6))
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}(Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.8784740948094764e-8,-4.270756420702484e-8),Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(3.7142179306959987e-7,-1.0041792538767907e-5))
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}(Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.8784740948094764e-8,-4.270756420702484e-8),Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(4.124047974292231e-8,-1.5359764740915234e-6))
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}(Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.8784740948094764e-8,-4.270756420702484e-8),Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(5.0234299732733565e-8,-2.468785895912845e-6))
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}(Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.8784740948094764e-8,-4.270756420702484e-8),Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.2707564212577616e-8,2.555156342319139e-6))
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, ForwardDiff.Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}, Float64, 1}}}(Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-4.8784740948094764e-8,-4.270756420702484e-8),Dual{ForwardDiff.Tag{typeof(force_and_stress), Float64}}(-2.0716853652008488e-7,6.683866189316164e-6))
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+All finished!

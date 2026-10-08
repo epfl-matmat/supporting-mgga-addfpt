@@ -1,0 +1,312 @@
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 1
+│   n_DFTK = 1
+│   n_fft = 1
+└   n_blas = 1
+┌ Warning: Negative ρcore detected: -0.0032341204471348236
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019584478821243256
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032341204471348726
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0032341204471348505
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0032341204471348505
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019584478821243256
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.01958447882124294
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032341204471348236
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0032341204471348505
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0032341204471348817
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.01958447882124294
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032341204471348236
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019584478821242642
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.019584478821243256
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.019584478821242226
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.019584478821243256
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:405
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -16.32801782666                   -1.86    5.5    26.0s
+  2   -16.32867896978       -3.18       -2.03    1.1    10.7s
+  3   -16.32870705907       -4.55       -2.51    2.5    6.10s
+  4   -16.32870974143       -5.57       -3.05    2.5    7.61s
+  5   -16.32870986724       -6.90       -3.36    2.1    4.89s
+  6   -16.32870991694       -7.30       -4.59    2.3    8.82s
+  7   -16.32870991714       -9.69       -4.86    2.8    9.75s
+  8   -16.32870991715      -11.29       -5.59    1.2    4.05s
+┌ Warning: Negative ρcore detected: -0.0032098799094524367
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0032098799094524297
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019404070935550025
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032098799094524297
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019404070935550025
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032098799094524297
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019404070935550025
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.019404070935550025
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003209879909452461
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019404070935550233
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032098799094524297
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019404070935550025
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032098799094524805
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019404070935550053
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032098799094524297
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019404070935550025
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -16.32835398167                   -1.83    5.5    11.1s
+  2   -16.32903884235       -3.16       -2.01    1.1    4.95s
+  3   -16.32906886671       -4.52       -2.48    2.4    6.58s
+  4   -16.32907200906       -5.50       -3.05    2.5    5.34s
+  5   -16.32907211661       -6.97       -3.31    2.0    6.27s
+  6   -16.32907217424       -7.24       -4.67    2.3    5.22s
+  7   -16.32907217451       -9.57       -4.90    3.3    7.47s
+  8   -16.32907217452      -11.23       -5.70    1.2    4.22s
+┌ Warning: Negative ρcore detected: -0.0032150319510114624
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.01906766855927028
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003215031951011466
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0032150319510115036
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019067668559270595
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.01906766855927078
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032150319510114897
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.019067668559270577
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032150319510115036
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.01906766855927078
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032150319510114624
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.01906766855927028
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0032150319510114624
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.01906766855927028
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.00321503195101151
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.01906766855927095
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -16.32853304890                   -1.79    5.5    11.8s
+  2   -16.32924439624       -3.15       -1.99    1.1    5.89s
+  3   -16.32927680791       -4.49       -2.46    2.4    7.53s
+  4   -16.32928037537       -5.45       -3.06    2.5    8.39s
+  5   -16.32928046530       -7.05       -3.30    1.9    6.50s
+  6   -16.32928052381       -7.23       -4.68    2.2    7.38s
+  7   -16.32928052415       -9.47       -4.93    3.4    8.24s
+  8   -16.32928052416      -11.10       -5.82    1.2    4.81s
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0030676574739816375
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018363802277515884
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -16.32856635026                   -1.75    5.4    8.32s
+  2   -16.32930522213       -3.13       -1.98    1.1    5.18s
+  3   -16.32934028945       -4.46       -2.44    2.3    6.96s
+  4   -16.32934420782       -5.41       -3.08    2.4    5.16s
+  5   -16.32934428328       -7.12       -3.30    1.9    4.28s
+  6   -16.32934433983       -7.25       -4.63    2.2    4.91s
+  7   -16.32934434022       -9.41       -4.99    3.3    5.31s
+  8   -16.32934434023      -11.15       -5.92    1.4    4.16s
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.0030736606078041843
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.0185884098304228
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -16.32847902649                   -1.72    5.5    8.96s
+  2   -16.32924851596       -3.11       -1.96    1.1    3.81s
+  3   -16.32928691266       -4.42       -2.42    2.4    6.50s
+  4   -16.32929123132       -5.36       -3.10    2.4    5.04s
+  5   -16.32929128955       -7.23       -3.31    1.9    6.39s
+  6   -16.32929134333       -7.27       -4.55    2.2    4.56s
+  7   -16.32929134379       -9.33       -5.03    3.1    5.11s
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003059046915118158
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018612379431215118
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -16.32828121345                   -1.69    5.5    9.39s
+  2   -16.32908151977       -3.10       -1.94    1.1    5.96s
+  3   -16.32912337723       -4.38       -2.40    2.4    5.41s
+  4   -16.32912811198       -5.32       -3.13    2.4    5.79s
+  5   -16.32912815547       -7.36       -3.31    2.0    4.39s
+  6   -16.32912820786       -7.28       -4.49    2.2    5.71s
+  7   -16.32912820839       -9.27       -5.06    3.1    5.04s
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Negative ρcore detected: -0.003126722312735695
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.018634605960955224
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -16.32798368931                   -1.66    5.4    8.70s
+  2   -16.32881568636       -3.08       -1.92    1.1    4.69s
+  3   -16.32886135387       -4.34       -2.38    2.4    6.82s
+  4   -16.32886653527       -5.29       -3.17    2.4    5.47s
+  5   -16.32886656199       -7.57       -3.31    2.2    4.20s
+  6   -16.32886661336       -7.29       -4.44    2.2    4.38s
+  7   -16.32886661398       -9.21       -5.07    3.0    4.79s

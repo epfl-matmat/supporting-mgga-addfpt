@@ -1,0 +1,84 @@
+diff -ur metapsp-1.0.1/src/globalmath_loc.F90 metapsp-1.0.1/src/globalmath_loc.F90
+--- metapsp-1.0.1/src/globalmath_loc.F90	2024-04-27 20:10:09.000000000 +0200
++++ metapsp-1.0.1/src/globalmath_loc.F90	2026-06-20 10:36:23.000000000 +0200
+@@ -95,6 +95,19 @@
+   END FUNCTION ddexp
+ 
+   !**********************************************
++  ! 5th order "smootherstep" function: 0 for x <= 0, 1 for x >= 1, smooth in between
++  pure function smoothstep(x)
++    real(8), intent(in) :: x
++    real(8) :: smoothstep
++    if (x <= 0.0) then
++      smoothstep = 0.0
++    else if (x >= 1.0) then
++      smoothstep = 1.0
++    else
++      smoothstep = 6.0*x**5 - 15.0*x**4 + 10.0*x**3
++    end if
++  end function smoothstep
++
+ 
+ END MODULE GlobalMath_loc
+ 
+diff -ur metapsp-1.0.1/src/lschfb_m.f90 metapsp-1.0.1/src/lschfb_m.f90
+--- metapsp-1.0.1/src/lschfb_m.f90	2024-04-27 20:10:09.000000000 +0200
++++ metapsp-1.0.1/src/lschfb_m.f90	2026-06-20 10:36:23.000000000 +0200
+@@ -190,7 +190,7 @@
+ 
+ ! revised search strategy for classical turning point 
+ ! to deal with mgga iissues at large r
+-   mch=0
++   imch=0
+ !  do ii=1,mmax
+    do ii=1,mmax-1
+ !    if(rr(ii)<50.0d0*rr(1)) cycle
+@@ -201,6 +201,12 @@
+      end if
+    end do
+ 
++   if(imch==0) then
++      ierr=-1
++      return
++   end if
++
++   mch=0
+    do ii=imch+1,mmax
+      if(cfm(ii)>0.0d0) then
+         mch=ii
+diff -ur metapsp-1.0.1/src/oncvpsp_mx.f90 metapsp-1.0.1/src/oncvpsp_mx.f90
+--- metapsp-1.0.1/src/oncvpsp_mx.f90	2024-04-27 20:10:09.000000000 +0200
++++ metapsp-1.0.1/src/oncvpsp_mx.f90	2026-06-20 10:36:23.000000000 +0200
+@@ -832,6 +832,15 @@
+    end if
+  end do
+ 
++ ! smoothly force vpuns to be equal to -zion/r beyond the max rc (over a window of 1 a.u.)
++ do ii=1,mmax
++  do l1=1,max(lmax+1,lloc+1)
++    if (rr(ii) > rcmax) then
++      vpuns(ii,l1)=-zion/rr(ii) + (vpuns(ii,l1)+zion/rr(ii)) * smoothstep(1.0+(rcmax-rr(ii))/1.0)
++    end if
++  end do
++ end do
++
+  rho(:)=rhops(:)
+ 
+ 
+diff -ur metapsp-1.0.1/src/upfout_m.f90 metapsp-1.0.1/src/upfout_m.f90
+--- metapsp-1.0.1/src/upfout_m.f90	2024-04-27 20:10:09.000000000 +0200
++++ metapsp-1.0.1/src/upfout_m.f90	2026-06-20 10:36:23.000000000 +0200
+@@ -130,10 +130,9 @@
+ ! override dpnint extrapolation to zero for vpl
+    vpl(1,l1)=vpuns(1,l1)
+    if(l1 .ne. lloc + 1) then
+-
+-     call dpnint(rr,vkb(1,1,l1),mmax,rl,vkbl(1,1,l1),nrl)
+-     call dpnint(rr,vkb(1,2,l1),mmax,rl,vkbl(1,2,l1),nrl)
+-
++      do iproj=1,nproj(l1)
++        call dpnint(rr,vkb(1,iproj,l1),mmax,rl,vkbl(1,iproj,l1),nrl)
++      end do
+    end if
+  end do
+ 

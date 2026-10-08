@@ -1,0 +1,54 @@
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 8
+│   n_DFTK = 8
+│   n_fft = 1
+└   n_blas = 8
+┌ Warning: Negative ρcore detected: -0.005068068050796801
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative τcore detected: -0.02073318744671377
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:45
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -136.5380311405                   -0.25   25.9     543s
+  2   -128.7241214409   +    0.89        0.27   12.9     367s
+┌ Warning: Eigensolver not converged
+│   n_iter =
+│    512-element Vector{Int64}:
+│      19
+│     100
+│      23
+│      21
+│       ⋮
+│      23
+│      22
+│      18
+└ @ DFTK ~/DFTK-mgga/src/scf/self_consistent_field.jl:81
+  3   -136.1312967424        0.87       -0.13   24.6     653s
+  4   -136.5278494690       -0.40       -0.26   13.5     378s
+  5   -136.9466398611       -0.38       -0.59   11.7     303s
+  6   -136.9604760918       -1.86       -0.64    8.8     230s
+  7   -137.0330899606       -1.14       -1.69    9.9     264s
+  8   -137.0332975419       -3.68       -1.78    5.1     174s
+  9   -137.0332658579   +   -4.50       -1.91    3.8     167s
+ 10   -137.0334216469       -3.81       -2.44    4.7     168s
+ 11   -137.0334273452       -5.24       -2.84    4.6     180s
+ 12   -137.0334237106   +   -5.44       -2.72    6.2     202s
+ 13   -137.0334155935   +   -5.09       -2.50    6.8     207s
+ 14   -137.0334264698       -4.96       -2.88    5.0     170s
+ 15   -137.0334287292       -5.65       -3.94    4.5     171s
+ 16   -137.0334280548   +   -6.17       -3.14    9.7     288s
+ 17   -137.0334284126       -6.45       -3.29    6.7     186s
+ 18   -137.0334286741       -6.58       -3.66    9.1     230s
+ 19   -137.0334287219       -7.32       -3.93    4.8     154s
+ 20   -137.0334287406       -7.73       -4.46    5.2     168s
+ 21   -137.0334287422       -8.80       -4.83    6.2     192s
+ 22   -137.0334287425       -9.51       -5.45    6.5     198s
+ 23   -137.0334287425      -12.18       -5.48    5.0     186s
+ 24   -137.0334287425      -10.91       -5.94    4.3     154s
+ 25   -137.0334287425      -11.76       -6.78    5.6     185s
+ 26   -137.0334287425      -13.55       -6.96    6.4     221s
+ 27   -137.0334287425   +    -Inf       -7.34    4.7     166s
+ 28   -137.0334287425   +    -Inf       -8.24    5.6     186s
+All finished!

@@ -1,0 +1,16 @@
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 8
+│   n_DFTK = 8
+│   n_fft = 1
+└   n_blas = 8
+Loading SCF results...
+┌ Warning: Negative ρcore detected: -4.8784740988640716e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+Loaded SCF results.
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1560#1561"{Vector{Float64}, DFTK.var"#apply_kshift#1555"{Array{Float64, 4}, Nothing, PlaneWaveBasis{Float64, Float64, DFTK.CPU, FFTGrid{Float64, Float64, Array{StaticArraysCore.SVector{3, Int64}, 3}, Array{StaticArraysCore.SVector{3, Float64}, 3}}, Vector{StaticArraysCore.SVector{3, Int64}}}, Vector{Matrix{ComplexF64}}, Model{Float64, Float64}}}, Float64}}(-4.8784740152726816e-8,0.0)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1560#1561"{Vector{Float64}, DFTK.var"#apply_kshift#1555"{Array{Float64, 4}, Nothing, PlaneWaveBasis{Float64, Float64, DFTK.CPU, FFTGrid{Float64, Float64, Array{StaticArraysCore.SVector{3, Int64}, 3}, Array{StaticArraysCore.SVector{3, Float64}, 3}}, Vector{StaticArraysCore.SVector{3, Int64}}}, Vector{Matrix{ComplexF64}}, Model{Float64, Float64}}}, Float64}}(-4.8784740152726816e-8,0.0)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1560#1561"{Vector{Float64}, DFTK.var"#apply_kshift#1555"{Array{Float64, 4}, Nothing, PlaneWaveBasis{Float64, Float64, DFTK.CPU, FFTGrid{Float64, Float64, Array{StaticArraysCore.SVector{3, Int64}, 3}, Array{StaticArraysCore.SVector{3, Float64}, 3}}, Vector{StaticArraysCore.SVector{3, Int64}}}, Vector{Matrix{ComplexF64}}, Model{Float64, Float64}}}, Float64}}(-4.8784740152726816e-8,0.0)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+All finished!

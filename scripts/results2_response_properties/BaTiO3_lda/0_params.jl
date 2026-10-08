@@ -1,0 +1,9 @@
+using DFTK
+using PseudoPotentialData
+
+pseudopotentials = PseudoFamily("dojo.nc.sr.lda.v0_4_1.standard.upf")
+model_kwargs = (; functionals=LDA(), pseudopotentials,
+                  temperature=1e-3, smearing=Smearing.FermiDirac(),
+                  kinetic_blowup=BlowupCHV())
+basis_kwargs = (; kgrid=[8, 8, 8], Ecut=48)
+calc = DFTKCalculator(; model_kwargs, basis_kwargs, verbose=true)

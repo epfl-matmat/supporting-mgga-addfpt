@@ -1,0 +1,543 @@
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 8
+│   n_DFTK = 8
+│   n_fft = 1
+└   n_blas = 8
+Relaxing with tol_forces = 1.9446903811416696e-6 and tol_virial = 0.0001463857047258688 (in a.u.)...
+┌ Warning: Negative ρcore detected: -1.7674714545911354e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -136.8934736016                   -0.27   0.80   25.1    51.5s
+  2   -126.5865748428   +    1.01        0.32   0.80   12.1    35.9s
+  3   -136.1330423007        0.98       -0.08   0.80   18.8    47.6s
+  4   -136.8035027170       -0.17       -0.24   0.80   13.5    34.3s
+  5   -137.2254699782       -0.37       -0.49   0.80   12.4    30.5s
+  6   -137.3251482408       -1.00       -0.69   0.80   11.0    25.3s
+  7   -137.3837258964       -1.23       -1.41   0.80   10.5    25.6s
+  8   -137.3856880613       -2.71       -1.69   0.80    8.5    22.3s
+  9   -137.3853184521   +   -3.43       -1.59   0.80    8.4    22.8s
+ 10   -137.3860752530       -3.12       -2.23   0.80    8.2    19.0s
+ 11   -137.3861109086       -4.45       -2.96   0.80    7.1    20.3s
+ 12   -137.3861117662       -6.07       -3.23   0.80    8.7    21.5s
+ 13   -137.3860966449   +   -4.82       -2.50   0.80   10.8    25.9s
+ 14   -137.3861118740       -4.82       -3.63   0.80   11.4    26.4s
+ 15   -137.3861118603   +   -7.86       -3.62   0.80    5.3    15.5s
+ 16   -137.3861114243   +   -6.36       -3.22   0.80    8.6    22.4s
+ 17   -137.3861119046       -6.32       -4.28   0.80    9.0    22.6s
+ 18   -137.3861119058       -8.94       -4.37   0.80    6.7    19.0s
+ 19   -137.3861119085       -8.57       -5.40   0.80    8.8    21.0s
+ 20   -137.3861119085      -10.88       -5.94   0.80    7.5    21.9s
+ 21   -137.3861119085      -11.68       -6.57   0.80    8.5    21.7s
+ 22   -137.3861119085      -13.25       -7.89   0.80    7.5    20.1s
+┌ Warning: Negative ρcore detected: -1.7674714545911354e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3861119085                   -7.85   0.80    1.0    7.61s
+  2   -137.3861119085      -13.07       -8.43   0.80    1.0    6.52s
+┌ Warning: Negative ρcore detected: -1.7674714545911354e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3861119085                   -8.50   0.80    1.0    6.03s
+  2   -137.3861119085   +  -13.07       -8.74   0.80    1.0    6.60s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.767471469032611e-8,-1.7566514742552427e-9)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.767471469032611e-8,-8.348817432777174e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.767471469032611e-8,-8.119068581382575e-9)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.767471469032611e-8,2.4843717210795435e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.767471469032611e-8,1.0076257379947381e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.767471469032611e-8,-1.6299953619130532e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+                 Geometry optimisation convergence (in atomic units)
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   0 │ -137.3861119085 │           │  0.00143397 │   0.0882491 │   -0.088 │  1020s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+
+┌ Warning: Negative ρcore detected: -2.068513051507176e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.2262614148                   -0.54   0.80   31.3    56.0s
+  2   -137.3500454450       -0.91       -0.87   0.80   15.3    35.6s
+  3   -137.3828999370       -1.48       -1.21   0.80   13.4    29.7s
+  4   -137.3869387178       -2.39       -1.62   0.80   11.8    26.7s
+  5   -137.3872625034       -3.49       -2.30   0.80    9.1    21.8s
+  6   -137.3872749150       -4.91       -3.27   0.80    9.2    23.0s
+  7   -137.3872750634       -6.83       -3.39   0.80   10.1    25.6s
+  8   -137.3872751429       -7.10       -3.63   0.80    9.5    21.8s
+  9   -137.3872751601       -7.77       -4.06   0.80    9.9    22.6s
+ 10   -137.3872751720       -7.92       -4.69   0.80   10.6    22.2s
+ 11   -137.3872751723       -9.66       -4.98   0.80    9.6    22.8s
+ 12   -137.3872751724       -9.80       -5.64   0.80   10.5    24.8s
+ 13   -137.3872751724      -11.16       -6.68   0.80   10.2    23.2s
+ 14   -137.3872751724      -13.25       -7.49   0.80   10.7    25.2s
+┌ Warning: Negative ρcore detected: -2.0037767818428895e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3658176286                   -1.00   0.80   19.3    43.8s
+  2   -137.3862638740       -1.69       -1.51   0.80   12.1    27.4s
+  3   -137.3876245851       -2.87       -1.96   0.80   13.7    26.9s
+  4   -137.3876233046   +   -5.89       -2.42   0.80    9.4    21.9s
+  5   -137.3876319192       -5.06       -3.01   0.80   10.9    23.7s
+  6   -137.3876290429   +   -5.54       -2.81   0.80   13.4    29.6s
+  7   -137.3876335370       -5.35       -3.71   0.80   12.9    25.6s
+  8   -137.3876335870       -7.30       -4.11   0.80   11.3    26.4s
+  9   -137.3876335955       -8.07       -4.98   0.80    9.4    23.8s
+ 10   -137.3876335957       -9.71       -5.84   0.80   12.3    26.1s
+ 11   -137.3876335957      -12.85       -5.88   0.80   13.4    29.0s
+ 12   -137.3876335957      -11.61       -6.59   0.80    8.7    21.0s
+ 13   -137.3876335957      -12.94       -7.76   0.80   11.4    25.6s
+┌ Warning: Negative ρcore detected: -2.0037767818428895e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3876335957                   -7.55   0.80    1.0    4.70s
+  2   -137.3876335957      -13.25       -8.14   0.80    1.0    5.36s
+┌ Warning: Negative ρcore detected: -2.0037767818428895e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3876335957                   -7.87   0.80    1.0    4.65s
+  2   -137.3876335957      -13.55       -8.37   0.80    1.0    5.39s
+┌ Warning: Negative ρcore detected: -2.0037767818428895e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3876335957                   -8.05   0.80    1.0    4.54s
+  2   -137.3876335957   +    -Inf       -8.59   0.80    1.0    5.42s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.003776787038297e-8,-1.5393082652666215e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.003776787038297e-8,-4.888517682903605e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.003776787038297e-8,-1.9892773716749972e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.003776787038297e-8,-7.568143439339592e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.003776787038297e-8,-1.310840895963565e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.003776787038297e-8,-9.097220089289177e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   1 │ -137.3876335957 │           │  0.00489999 │  0.00356903 │ -0.00029 │  1222s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+
+┌ Warning: Negative ρcore detected: -2.0036273185225118e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3876277524                   -3.33   0.80   21.1    45.4s
+  2   -137.3876337178       -5.22       -3.74   0.80    2.2    8.37s
+  3   -137.3876344494       -6.14       -4.01   0.80   18.3    39.7s
+  4   -137.3876344513       -8.72       -4.30   0.80   12.8    27.6s
+  5   -137.3876344429   +   -8.08       -4.13   0.80   14.5    29.2s
+  6   -137.3876344539       -7.96       -5.05   0.80   12.9    27.9s
+  7   -137.3876344540      -10.44       -5.32   0.80   11.3    26.7s
+  8   -137.3876344540      -10.81       -5.68   0.80   10.4    22.8s
+  9   -137.3876344540      -11.80       -6.51   0.80   11.4    25.1s
+ 10   -137.3876344540      -12.94       -7.24   0.80   11.5    28.1s
+┌ Warning: Negative ρcore detected: -2.052049811435542e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.2936148807                   -0.52   0.80   21.5    46.1s
+  2   -137.3828381479       -1.05       -1.02   0.80   13.1    26.8s
+  3   -137.3874380846       -2.34       -1.50   0.80   13.3    31.0s
+  4   -137.3877952547       -3.45       -1.93   0.80    9.6    23.3s
+  5   -137.3878985794       -3.99       -2.80   0.80    8.0    23.5s
+  6   -137.3878917872   +   -5.17       -2.67   0.80   12.0    27.9s
+  7   -137.3878997339       -5.10       -3.24   0.80   11.3    25.1s
+  8   -137.3879000514       -6.50       -3.46   0.80   11.3    25.7s
+  9   -137.3879002382       -6.73       -4.50   0.80   10.4    23.2s
+ 10   -137.3879002383      -10.04       -4.77   0.80   10.4    26.2s
+ 11   -137.3879002389       -9.23       -5.26   0.80   11.2    25.1s
+ 12   -137.3879002389      -10.55       -6.02   0.80   10.9    25.7s
+ 13   -137.3879002389      -12.18       -6.78   0.80    9.0    23.2s
+┌ Warning: Negative ρcore detected: -2.052049811435542e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3879002389                   -6.43   0.80    1.0    4.68s
+  2   -137.3879002389      -12.47       -7.10   0.80    1.0    5.49s
+┌ Warning: Negative ρcore detected: -2.052049811435542e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3879002389                   -6.92   0.80    1.0    4.61s
+  2   -137.3879002389   +    -Inf       -7.46   0.80    1.0    5.22s
+┌ Warning: Negative ρcore detected: -2.052049811435542e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3879002389                   -7.18   0.80    1.0    4.46s
+  2   -137.3879002389   +    -Inf       -7.78   0.80    1.0    5.30s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.0520498093971385e-8,-2.6451093830894223e-9)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.0520498093971385e-8,-1.3484344277989841e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.0520498093971385e-8,-1.4551605319844184e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.0520498093971385e-8,1.1690695451014721e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.0520498093971385e-8,-1.0502380497654654e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.0520498093971385e-8,4.2196796621061783e-10)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   2 │ -137.3879002389 │     -3.57 │  0.00276961 │   0.0168308 │  -0.0033 │  1119s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.0071686444                   -0.19   0.80   24.1    55.4s
+  2   -137.3606939682       -0.45       -0.67   0.80   13.5    33.1s
+  3   -137.3804155375       -1.71       -1.10   0.80   15.7    38.4s
+  4   -137.3853352584       -2.31       -1.49   0.80   11.1    29.9s
+  5   -137.3861196758       -3.11       -2.18   0.80    8.2    23.0s
+  6   -137.3861579029       -4.42       -2.91   0.80    9.6    25.5s
+  7   -137.3861583253       -6.37       -3.26   0.80    9.5    27.0s
+  8   -137.3861584513       -6.90       -3.54   0.80   10.8    26.8s
+  9   -137.3861585390       -7.06       -3.91   0.80   10.6    27.0s
+ 10   -137.3861585542       -7.82       -4.18   0.80   12.4    27.6s
+ 11   -137.3861585618       -8.12       -4.66   0.80   11.7    27.0s
+ 12   -137.3861585626       -9.10       -5.29   0.80    9.5    26.1s
+ 13   -137.3861585626      -10.50       -5.82   0.80    9.1    25.4s
+ 14   -137.3861585626      -11.60       -6.40   0.80   10.2    27.4s
+ 15   -137.3861585626      -12.77       -7.12   0.80    9.8    26.5s
+┌ Warning: Negative ρcore detected: -2.0105901613351982e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.1618981143                   -0.30   0.80   19.1    43.9s
+  2   -137.3708811838       -0.68       -0.74   0.80   12.8    27.0s
+  3   -137.3871877932       -1.79       -1.24   0.80   14.7    32.0s
+  4   -137.3878675243       -3.17       -1.87   0.80   10.1    20.8s
+  5   -137.3880266232       -3.80       -2.69   0.80    8.2    20.5s
+  6   -137.3880283286       -5.77       -3.10   0.80    8.6    21.8s
+  7   -137.3880264383   +   -5.72       -2.92   0.80   12.3    26.1s
+  8   -137.3880293513       -5.54       -3.48   0.80   11.5    23.8s
+  9   -137.3880295236       -6.76       -4.03   0.80    9.0    21.6s
+ 10   -137.3880295298       -8.21       -4.91   0.80    9.2    21.7s
+ 11   -137.3880295299      -10.07       -5.65   0.80    9.7    23.7s
+ 12   -137.3880295299      -11.17       -6.23   0.80   10.2    23.6s
+ 13   -137.3880295299      -12.17       -7.16   0.80   11.5    25.0s
+┌ Warning: Negative ρcore detected: -2.0105901613351982e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880295299                   -6.70   0.80    1.0    4.79s
+  2   -137.3880295299      -13.07       -7.30   0.80    1.0    5.45s
+┌ Warning: Negative ρcore detected: -2.0105901613351982e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880295299                   -7.17   0.80    1.0    4.85s
+  2   -137.3880295299   +    -Inf       -7.66   0.80    1.0    5.39s
+┌ Warning: Negative ρcore detected: -2.0105901613351982e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880295299                   -7.50   0.80    1.0    4.58s
+  2   -137.3880295299   +    -Inf       -8.02   0.80    1.0    5.34s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.010590172611111e-8,4.5238079884836305e-10)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.010590172611111e-8,1.877677451242541e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.010590172611111e-8,2.535271779352483e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.010590172611111e-8,-1.9704271164721484e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.010590172611111e-8,5.912549838394751e-17)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-2.010590172611111e-8,-5.005005727979667e-19)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   3 │ -137.3880295299 │     -3.89 │  0.00170444 │  0.00393193 │  -0.0034 │  1271s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+
+┌ Warning: Negative ρcore detected: -2.0103912129839124e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880068199                   -2.42   0.80   20.9    46.2s
+  2   -137.3880316001       -4.61       -2.86   0.80    5.1    13.6s
+  3   -137.3880329983       -5.85       -3.28   0.80   13.5    32.2s
+  4   -137.3880327036   +   -6.53       -3.29   0.80   12.4    29.0s
+  5   -137.3880328125       -6.96       -3.38   0.80   13.1    28.2s
+  6   -137.3880331628       -6.46       -4.27   0.80   12.6    27.1s
+  7   -137.3880331694       -8.18       -4.81   0.80   13.4    30.8s
+  8   -137.3880331699       -9.26       -5.79   0.80   12.1    28.6s
+  9   -137.3880331700      -11.58       -6.05   0.80   12.3    29.0s
+ 10   -137.3880331700      -11.92       -6.94   0.80    9.9    25.3s
+┌ Warning: Negative ρcore detected: -1.9852998313758476e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3859104835                   -1.44   0.80   21.3    45.9s
+  2   -137.3879563413       -2.69       -1.89   0.80    9.1    21.6s
+  3   -137.3880407581       -4.07       -2.34   0.80   10.3    28.0s
+  4   -137.3880492620       -5.07       -2.86   0.80    9.8    24.6s
+  5   -137.3880487774   +   -6.31       -3.06   0.80   10.0    26.3s
+  6   -137.3880487225   +   -7.26       -3.09   0.80   12.7    27.9s
+  7   -137.3880500292       -5.88       -4.28   0.80   11.8    24.3s
+  8   -137.3880500335       -8.36       -4.52   0.80   13.7    30.7s
+  9   -137.3880500356       -8.69       -5.09   0.80   12.1    27.9s
+ 10   -137.3880500357       -9.93       -5.83   0.80   12.0    27.3s
+ 11   -137.3880500357      -11.41       -6.06   0.80   13.4    29.9s
+ 12   -137.3880500357      -12.25       -7.10   0.80    8.6    22.1s
+┌ Warning: Negative ρcore detected: -1.9852998313758476e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880500357                   -7.37   0.80    1.0    4.83s
+  2   -137.3880500357   +  -13.55       -7.59   0.80    1.0    5.43s
+┌ Warning: Negative ρcore detected: -1.9852998313758476e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880500357                   -7.76   0.80    1.0    4.74s
+  2   -137.3880500357   +  -13.55       -7.95   0.80    1.0    5.49s
+┌ Warning: Negative ρcore detected: -1.9852998313758476e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880500357                   -8.05   0.80    1.0    4.68s
+  2   -137.3880500357   +  -13.55       -8.27   0.80    1.0    5.58s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9852998105001396e-8,-1.0215370627764858e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9852998105001396e-8,-3.371267529977582e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9852998105001396e-8,-1.0936907770218344e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9852998105001396e-8,-2.6238309367633573e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9852998105001396e-8,4.5446084529012775e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9852998105001396e-8,5.927167127446726e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   4 │ -137.3880500357 │     -4.69 │  0.00127242 │  0.00400467 │   0.0024 │  1118s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+
+┌ Warning: Negative ρcore detected: -1.9864521996801623e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880018832                   -2.05   0.80   20.6    43.0s
+  2   -137.3880480314       -4.34       -2.47   0.80    5.3    13.8s
+  3   -137.3880547446       -5.17       -3.01   0.80   13.7    30.9s
+  4   -137.3880548246       -7.10       -3.31   0.80   11.8    26.6s
+  5   -137.3880539833   +   -6.08       -3.12   0.80   14.3    29.5s
+  6   -137.3880550903       -5.96       -3.83   0.80   13.1    26.7s
+  7   -137.3880551337       -7.36       -4.76   0.80   12.4    27.5s
+  8   -137.3880551340       -9.55       -5.15   0.80   12.5    26.8s
+  9   -137.3880551341       -9.99       -5.71   0.80   12.5    27.2s
+ 10   -137.3880551341      -11.53       -6.37   0.80   10.6    25.8s
+ 11   -137.3880551341      -13.07       -6.81   0.80   11.1    25.2s
+┌ Warning: Negative ρcore detected: -1.9801752824086968e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3804533017                   -0.96   0.80   21.3    43.5s
+  2   -137.3873521677       -2.16       -1.42   0.80   10.9    22.7s
+  3   -137.3880280456       -3.17       -1.91   0.80   11.8    27.3s
+  4   -137.3880785074       -4.30       -2.41   0.80   10.4    24.6s
+  5   -137.3880851928       -5.17       -3.29   0.80    9.8    24.6s
+  6   -137.3880850142   +   -6.75       -3.25   0.80   12.0    28.7s
+  7   -137.3880852392       -6.65       -3.59   0.80   10.8    24.9s
+  8   -137.3880853473       -6.97       -4.19   0.80   12.3    27.1s
+  9   -137.3880853521       -8.32       -4.78   0.80    9.8    25.1s
+ 10   -137.3880853521      -10.14       -5.14   0.80   10.8    27.5s
+ 11   -137.3880853522      -10.15       -5.81   0.80   11.0    26.1s
+ 12   -137.3880853522      -11.67       -6.80   0.80   11.8    26.9s
+┌ Warning: Negative ρcore detected: -1.9801752824086968e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880853522                   -6.82   0.80    1.0    4.78s
+  2   -137.3880853522      -13.25       -7.10   0.80    1.0    5.53s
+┌ Warning: Negative ρcore detected: -1.9801752824086968e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880853522                   -7.21   0.80    1.0    4.71s
+  2   -137.3880853522      -13.25       -7.44   0.80    1.0    5.39s
+┌ Warning: Negative ρcore detected: -1.9801752824086968e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880853522                   -7.51   0.80    1.0    4.55s
+  2   -137.3880853522   +  -13.55       -7.76   0.80    1.0    5.31s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9801753117009123e-8,-1.0724956591627507e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9801753117009123e-8,1.864960370012495e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9801753117009123e-8,4.7861315760059206e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9801753117009123e-8,3.30814984245391e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9801753117009123e-8,3.179084156686575e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.9801753117009123e-8,3.089583054916549e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   5 │ -137.3880853522 │     -4.45 │ 0.000895509 │  0.00310143 │    0.003 │  1131s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+
+┌ Warning: Negative ρcore detected: -1.98858124358307e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3872639046                   -1.58   0.80   20.7    44.5s
+  2   -137.3880143376       -3.12       -1.97   0.80    8.3    19.8s
+  3   -137.3880844793       -4.15       -2.35   0.80   11.3    28.1s
+  4   -137.3880936354       -5.04       -2.96   0.80    9.1    24.7s
+  5   -137.3880924388   +   -5.92       -3.05   0.80   11.8    27.0s
+  6   -137.3880934275       -6.00       -3.31   0.80   12.8    27.1s
+  7   -137.3880938572       -6.37       -4.14   0.80   11.1    25.3s
+  8   -137.3880938590       -8.73       -4.55   0.80   12.7    28.1s
+  9   -137.3880938596       -9.28       -4.98   0.80   11.6    25.8s
+ 10   -137.3880938597       -9.99       -5.58   0.80   10.0    24.2s
+ 11   -137.3880938597      -11.06       -5.97   0.80   11.4    26.2s
+ 12   -137.3880938597      -12.03       -7.27   0.80   10.5    24.2s
+┌ Warning: Negative ρcore detected: -1.9911235745176058e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3879030368                   -1.91   0.80   20.2    47.8s
+  2   -137.3880761951       -3.76       -2.30   0.80    6.3    16.9s
+  3   -137.3880932047       -4.77       -2.71   0.80   12.0    29.9s
+  4   -137.3880937609       -6.25       -3.04   0.80   10.9    28.9s
+  5   -137.3880923567   +   -5.85       -2.94   0.80   13.7    30.4s
+  6   -137.3880942159       -5.73       -3.21   0.80   13.1    27.5s
+  7   -137.3880948175       -6.22       -4.41   0.80   11.0    25.7s
+  8   -137.3880948185       -9.01       -4.78   0.80   12.4    29.2s
+  9   -137.3880948188       -9.47       -5.40   0.80   12.5    29.1s
+ 10   -137.3880948189      -10.57       -6.12   0.80   11.9    29.6s
+ 11   -137.3880948189      -11.83       -6.81   0.80   12.4    28.7s
+┌ Warning: Negative ρcore detected: -1.9911235745176058e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880948189                   -6.63   0.80    1.0    4.83s
+  2   -137.3880948189      -12.94       -7.14   0.80    1.0    5.42s
+┌ Warning: Negative ρcore detected: -1.9911235745176058e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880948189                   -7.03   0.80    1.0    4.84s
+  2   -137.3880948189      -13.25       -7.46   0.80    1.0    5.43s
+┌ Warning: Negative ρcore detected: -1.9911235745176058e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880948189                   -7.32   0.80    1.0    4.68s
+  2   -137.3880948189      -13.55       -7.76   0.80    1.0    5.41s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.991123566308625e-8,4.213965384688726e-9)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.991123566308625e-8,-1.227796595634974e-7)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.991123566308625e-8,7.689349057472194e-9)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.991123566308625e-8,4.087951181216049e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.991123566308625e-8,2.4987380312676786e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.991123566308625e-8,-2.568079857594631e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   6 │ -137.3880948189 │     -5.02 │  4.58818e-5 │ 0.000231057 │  0.00013 │  1148s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+
+┌ Warning: Negative ρcore detected: -1.9911033674647743e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880831545                   -3.33   0.80   20.3    45.8s
+  2   -137.3880943731       -4.95       -3.75   0.80    2.0    7.60s
+  3   -137.3880948184       -6.35       -3.99   0.80   18.7    38.9s
+  4   -137.3880948178   +   -9.21       -4.19   0.80   13.2    27.0s
+  5   -137.3880948090   +   -8.06       -4.05   0.80   13.9    28.2s
+  6   -137.3880948240       -7.82       -4.89   0.80   11.6    24.7s
+  7   -137.3880948242       -9.82       -5.25   0.80   11.3    26.4s
+  8   -137.3880948242      -10.88       -5.53   0.80    8.2    20.6s
+  9   -137.3880948242      -11.09       -6.59   0.80   10.6    24.5s
+ 10   -137.3880948242      -13.25       -7.16   0.80   11.8    28.2s
+┌ Warning: Negative ρcore detected: -1.991029363874579e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880772691                   -2.86   0.80   20.7    45.3s
+  2   -137.3880941341       -4.77       -3.28   0.80    2.6    8.99s
+  3   -137.3880947863       -6.19       -3.52   0.80   16.1    35.4s
+  4   -137.3880948206       -7.46       -3.95   0.80   10.2    24.9s
+  5   -137.3880947897   +   -7.51       -3.83   0.80   13.2    29.4s
+  6   -137.3880948270       -7.43       -4.37   0.80   13.0    26.9s
+  7   -137.3880948308       -8.42       -5.03   0.80   12.4    26.2s
+  8   -137.3880948308      -10.55       -5.29   0.80   10.2    24.2s
+  9   -137.3880948309      -10.79       -6.28   0.80   10.6    24.8s
+ 10   -137.3880948309      -12.34       -7.23   0.80   12.4    30.1s
+┌ Warning: Negative ρcore detected: -1.991029363874579e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880948309                   -6.98   0.80    1.0    4.78s
+  2   -137.3880948309   +    -Inf       -7.74   0.80    1.0    5.49s
+┌ Warning: Negative ρcore detected: -1.991029363874579e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880948309                   -7.73   0.80    1.0    4.92s
+  2   -137.3880948309   +    -Inf       -8.16   0.80    1.0    5.64s
+┌ Warning: Negative ρcore detected: -1.991029363874579e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+n     Energy            log10(ΔE)   log10(Δρ)   α      Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ----   ------
+  1   -137.3880948309                   -7.97   0.80    1.0    4.51s
+  2   -137.3880948309   +  -13.25       -8.62   0.80    1.0    5.32s
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.99102936277103e-8,-7.083030793289041e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.99102936277103e-8,-5.003339798764431e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.99102936277103e-8,5.314981747236334e-9)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.99102936277103e-8,-4.1985394833499764e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.99102936277103e-8,-2.5032535772211596e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{ComplexF64}}, Vector{Vector{Float64}}}}, Float64}}(-1.99102936277103e-8,-6.795036163668451e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+
+┌─────┬─────────────────┬───────────┬─────────────┬─────────────┬──────────┬────────┐
+│   n │          Energy │ log10(ΔE) │  max(Force) │ max(Virial) │ Pressure │  Δtime │
+├─────┼─────────────────┼───────────┼─────────────┼─────────────┼──────────┼────────┤
+│   7 │ -137.3880948309 │     -7.92 │  1.85915e-6 │  1.05927e-5 │   9.8e-6 │  1049s │
+└─────┴─────────────────┴───────────┴─────────────┴─────────────┴──────────┴────────┘
+

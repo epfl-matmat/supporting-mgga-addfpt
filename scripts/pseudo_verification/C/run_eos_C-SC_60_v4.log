@@ -1,0 +1,77 @@
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 1
+│   n_DFTK = 1
+│   n_fft = 1
+└   n_blas = 1
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+┌ Warning: Exchange-correlation term: the kinetic energy density τ is smaller than the von Weizsäcker kinetic energy density τ_W somewhere. This can lead to unphysical results. This can be caused by pseudopotentials without a non-linear core correction for τ, or by an unphysical initial guess for τ. This message is only logged once.
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:408
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -5.766473752598                   -1.25    4.5    9.64s
+  2   -5.767009297956       -3.27       -1.89    1.7    4.10s
+  3   -5.767056811065       -4.32       -2.64    3.3    1.59s
+  4   -5.767057288219       -6.32       -3.50    2.8    1.72s
+  5   -5.767057300744       -7.90       -4.75    3.2    1.51s
+  6   -5.767057300835      -10.04       -5.17    3.3    1.80s
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -5.767000955244                   -1.26    4.4    2.18s
+  2   -5.767516884992       -3.29       -1.90    1.7    1.01s
+  3   -5.767563422478       -4.33       -2.65    3.4    1.85s
+  4   -5.767563873287       -6.35       -3.46    2.9    1.38s
+  5   -5.767563887284       -7.85       -4.73    3.2    1.83s
+  6   -5.767563887392       -9.97       -5.15    3.2    1.49s
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -5.767317619428                   -1.28    4.5    2.33s
+  2   -5.767819890156       -3.30       -1.91    1.7    1.06s
+  3   -5.767865069989       -4.35       -2.66    3.4    1.89s
+  4   -5.767865555422       -6.31       -3.45    2.9    1.44s
+  5   -5.767865569916       -7.84       -4.73    3.2    2.43s
+  6   -5.767865570034       -9.93       -5.15    3.2    1.51s
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -5.767447361853                   -1.30    4.5    2.34s
+  2   -5.767936043078       -3.31       -1.91    1.7    1.08s
+  3   -5.767978995645       -4.37       -2.67    3.4    1.90s
+  4   -5.767979434758       -6.36       -3.45    3.0    1.47s
+  5   -5.767979449478       -7.83       -4.73    3.3    2.06s
+  6   -5.767979449595       -9.93       -5.16    3.2    2.35s
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -5.767406233988                   -1.31    4.6    2.28s
+  2   -5.767879612481       -3.32       -1.92    1.6    1.00s
+  3   -5.767922609081       -4.37       -2.68    3.4    1.87s
+  4   -5.767923075325       -6.33       -3.41    3.0    1.43s
+  5   -5.767923092585       -7.76       -4.73    3.2    1.85s
+  6   -5.767923092734       -9.83       -5.15    3.2    2.05s
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -5.767208165213                   -1.33    4.5    2.26s
+  2   -5.767669260575       -3.34       -1.93    1.6    1.03s
+  3   -5.767712402394       -4.37       -2.68    3.4    1.88s
+  4   -5.767712892434       -6.31       -3.38    3.0    1.45s
+  5   -5.767712914708       -7.65       -4.73    3.2    2.13s
+  6   -5.767712913099   +   -8.79       -5.15    3.3    1.56s
+n     Energy            log10(ΔE)   log10(Δρ)   Diag   Δtime 
+---   ---------------   ---------   ---------   ----   ------
+  1   -5.766873407176                   -1.34    4.6    2.33s
+  2   -5.767321445484       -3.35       -1.94    1.6    1.00s
+  3   -5.767362582437       -4.39       -2.70    3.5    1.93s
+  4   -5.767363052700       -6.33       -3.37    3.1    1.50s
+  5   -5.767363073775       -7.68       -4.73    3.2    2.16s
+  6   -5.767363073937       -9.79       -5.16    3.3    1.55s

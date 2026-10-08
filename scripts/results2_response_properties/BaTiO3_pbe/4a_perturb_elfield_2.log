@@ -1,0 +1,53 @@
+Running with index 2
+┌ Info: Threading setup: 
+│   Threads.nthreads() = 8
+│   n_DFTK = 8
+│   n_fft = 1
+└   n_blas = 8
+Loading SCF results...
+┌ Warning: Negative ρcore detected: -1.991029385379531e-8
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+Loaded SCF results.
+Loading δψ_dk...
+Loaded δψ_dk.
+Running DFPT computation...
+Iter  Restart  Krydim  log10(res)  avg(CG)  Δtime   Comment
+----  -------  ------  ----------  -------  ------  ---------------
+                                      34.9    374s  Non-interacting
+   1        0       1        1.44     29.5    354s  
+   2        0       2        1.07     29.0    329s  
+   3        0       3        0.71     28.0    318s  
+   4        0       4        0.04     26.9    307s  
+   5        0       5       -0.48     24.5    276s  
+   6        0       6       -1.04     23.0    263s  
+   7        0       7       -1.86     21.5    257s  
+   8        0       8       -2.36     18.8    216s  
+   9        0       9       -3.21     16.8    201s  
+  10        0      10       -4.07     13.6    168s  
+  11        0      11       -4.75     10.4    134s  
+  12        0      12       -5.46      8.6    115s  
+  13        0      13       -6.01      6.4   91.3s  
+  14        0      14       -6.34      5.0   74.6s  
+  15        0      15       -6.92      5.1   68.9s  
+  16        0      16       -7.56      2.0   38.7s  
+  17        0      17       -8.57      1.0   34.5s  
+  18        1       1       -7.73     35.9    417s  Restart
+  19        1       2       -8.23      7.0   94.9s  
+                                      33.5    372s  Final orbitals
+Finished DFPT computation.
+Computing polarization change
+Computing forces change
+Computing stress change
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-1.9910293817641425e-8,-7.083036832589367e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-1.9910293817641425e-8,-5.003340841352927e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-1.9910293817641425e-8,5.314910399150465e-9)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-1.9910293817641425e-8,-4.1985393357777636e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-1.9910293817641425e-8,2.5032599686748063e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+┌ Warning: Negative ρcore detected: Dual{ForwardDiff.Tag{DFTK.var"#1369#1370"{StaticArraysCore.SMatrix{3, 3, Float64, 9}, DFTK.var"#HF_energy#1368"{Vector{Vector{Float64}}, Float64, Vector{Matrix{Complex{ForwardDiff.Dual{ForwardDiff.Tag{var"#14#15", Float64}, Float64, 1}}}}, Vector{Vector{Float64}}}}, Float64}}(-1.9910293817641425e-8,6.795036584568402e-8)
+└ @ DFTK ~/DFTK-mgga/src/terms/xc.jl:39
+All finished!
